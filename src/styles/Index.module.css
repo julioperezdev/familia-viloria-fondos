@@ -1,0 +1,12 @@
+.full_information{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.twitter_timeline{
+    overflow:hidden;
+    overflow-y:auto;
+
+    padding: 30px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,46 @@
+{
+    "spanish":{
+        "header":{
+            "links":[{"text":"Inicio", "url":"/"}, {"text":"¿Quienes Somos?", "url":"/quienes-somos"}]
+        },
+        "index":{
+            "descriptionComponent":{
+                "paragraphs":[" espaniol kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkf","kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkfghlkglkhjglglkgkglkgkglk"]
+            },
+            "accountOptions":{
+                "title":"es un titulo para explicar como donar",
+                "options":[
+                    {"country":"USA","imageUrl": "", "accounts":["654987321", "PC-5454-VC", "lov.top"]},
+                    {"country":"EUROPA","imageUrl": "", "accounts":["FF-654987321"]},
+                    {"country":"BINANCE","imageUrl": "", "accounts":["1212121212", "lib.com"]}
+                ]
+            }
+        },
+        "howWeAre":{
+            "title": "Titulo de quien somos",
+            "paragraphs":[" espaniol kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkf","jdf;lkjsd;lkfjs;alkdjf;lkasdjf;lkjasd;lfkjasdl;jf;"]
+        }
+    },
+    "english":{
+        "header":{
+            "links":[{"text":"Home", "url":"/"}, {"text":"¿How we are?", "url":"/quien-somos"}]
+        },
+        "index":{
+            "descriptionComponent":{
+                "paragraphs":[" english kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkf","kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkfghlkglkhjglglkgkglkgkglk"]
+            },
+            "accountOptions":{
+                "title": "its a title to explain who help us",
+                "options":[
+                    {"country":"USA","imageUrl": "", "accounts":["654987321", "PC-5454-VC", "lov.top"]},
+                    {"country":"EUROPE","imageUrl": "", "accounts":["FF-654987321"]},
+                    {"country":"BINANCE","imageUrl": "", "accounts":["1212121212", "lib.com"]}
+                ]
+            }
+        },
+        "howWeAre":{
+            "title": "its a title to explain how we are",
+            "paragraphs":["english kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkf","jdf;lkjsd;lkfjs;alkdjf;lkasdjf;lkjasd;lfkjasdl;jf;"]
+        }
+    }
+}

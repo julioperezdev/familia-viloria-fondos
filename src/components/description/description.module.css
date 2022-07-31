@@ -1,0 +1,9 @@
+.description_base{
+    display: grid;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.description_image{
+    border-radius: 10px;
+}
