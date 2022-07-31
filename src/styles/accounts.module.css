@@ -1,0 +1,31 @@
+.accounts_base{
+}
+
+.accounts_description{
+    margin-top: 0;
+    font-size: 16px;
+    padding-left: 20%;
+}
+
+.accounts_email{
+    font-weight: 600;
+    padding-left: 20%;
+}
+
+.accounts_list{
+    display: grid;
+}
+
+.accounts_list > div{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.accounts_list > div > img{
+    width: 20px;
+    height: 20px;
+    display: grid;
+    justify-self: center;
+    
+}

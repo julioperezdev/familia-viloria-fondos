@@ -2,8 +2,8 @@ import { useContext } from 'react'
 import { LanguageContext } from '../../context/languageContext'
 import { IndexType } from '../../models/data'
 import styles from '../../styles/Index.module.css'
-import AccountOptions from '../accountOptions/accountOptions'
-import Description from '../description/description'
+import AccountOptions from '../accountOptions/accountOptions2'
+import Description from '../description/description2'
 
 const DescriptionAccount = () =>{
 

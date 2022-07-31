@@ -1,0 +1,25 @@
+.description_base{
+    display: grid;
+    justify-content: center;
+    padding: 0 50px;
+    overflow:hidden;
+    overflow-y:auto;
+    height: 60vh;
+}
+
+.description_image{
+    border-radius: 10px;
+    width: 65%;
+    
+}
+
+.description_title{
+    font-size: 20px;
+    width: 70%;
+    font-weight: 500;
+}
+
+.description_subtitle{
+    font-size: 17px;
+    font-weight: 500;
+}

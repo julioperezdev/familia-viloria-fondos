@@ -1,7 +1,8 @@
 import Head from "next/head";
+import Header from "./header/header";
 import HeaderComponent from "./header/headerComponent"
 
-const Layout = ({children, title}) =>{
+const Layout = ({children}) =>{
     return(
         <div>
             <Head>
@@ -9,7 +10,7 @@ const Layout = ({children, title}) =>{
                 <meta name="description" content="Web de Familia Viloria Fondos" />
                 <link rel="icon" href="/icon.png" />
             </Head>
-            <HeaderComponent/>
+            <Header/>
             <div>{children}</div>
         </div>
     )

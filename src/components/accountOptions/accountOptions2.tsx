@@ -3,7 +3,7 @@ import { AccountOptions } from "../../models/data";
 
 import styles from "./accountOptions.module.css"
 
-const AccountOptions = ({accountOptions}) =>{
+const AccountOptions2 = ({accountOptions}) =>{
 
     let accountTyped : AccountOptions = accountOptions;
 
@@ -41,4 +41,4 @@ const AccountOptions = ({accountOptions}) =>{
         </div>
     )
 }
-export default AccountOptions;
+export default AccountOptions2;

@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import HeaderComponent from "../components/header/headerComponent";
-import Layout from "../components/layout";
+import Layout from "../components/layout2";
 
 const QuienesSomos = () => {
     return(
