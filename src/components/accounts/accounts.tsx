@@ -28,28 +28,28 @@ const Accounts = () =>{
                     </>
                 ))} */}
                 <div>
-                    <img src="/usa.png"/>
+                    <img src="/usa.png" alt="bandera del pais donde se dona"/>
                     <div>
                         <p>Lorem ipsum dolor sit amet.</p>
                         <p>xxxx-xxxx-xxxx-xxxx</p>
                     </div>
                 </div>
                 <div>
-                    <img src="/espana.png"/>
+                    <img src="/espana.png" alt="bandera del pais donde se dona"/>
                     <div>
                         <p>Lorem ipsum dolor sit amet.</p>
                         <p>xxxx-xxxx-xxxx-xxxx</p>
                     </div>
                 </div>
                 <div>
-                    <img src="/europa.png"/>
+                    <img src="/europa.png" alt="bandera del pais donde se dona"/>
                     <div>
                         <p>Lorem ipsum dolor sit amet.</p>
                         <p>xxxx-xxxx-xxxx-xxxx</p>
                     </div>
                 </div>
                 <div>
-                    <img src="/argentina.png"/>
+                    <img src="/argentina.png" alt="bandera del pais donde se dona"/>
                     <div>
                         <p>Lorem ipsum dolor sit amet.</p>
                         <p>xxxx-xxxx-xxxx-xxxx</p>
