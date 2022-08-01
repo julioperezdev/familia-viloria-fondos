@@ -3,7 +3,6 @@ import { LanguageContext } from "../../context/languageContext";
 import { DescriptionComponent } from "../../models/data";
 
 import styles from "../../styles/description.module.css"
-import { randomUUID } from "crypto";
 
 const Description = () => {
 
@@ -21,7 +20,7 @@ const Description = () => {
         <p className={styles.description_title}>{descriptionData.title}</p>
         <p className={styles.description_subtitle}>{descriptionData.subtitle}</p>
         {descriptionData.paragraphs.map(particular =>(
-            <p key={randomUUID.toString()}>{particular}</p>
+            <p key={particular.id}>{particular.text}</p>
         ))}
       </div>
   )

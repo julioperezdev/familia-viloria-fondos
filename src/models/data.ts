@@ -27,7 +27,12 @@ export interface IndexType{
 export interface DescriptionComponent{
     title: string,
     subtitle: string,
-    paragraphs : Array<string>
+    paragraphs : Array<ParagraphsObject>
+}
+
+export interface ParagraphsObject{
+    id:number,
+    text: string
 }
 
 export interface AccountOptions{
