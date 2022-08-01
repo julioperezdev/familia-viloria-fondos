@@ -1,5 +1,5 @@
 import IndexComponent from "../components/indexComponent/indexComponen";
-import Layout from "../components/layout2";
+import Layout from "../components/layout";
 
 
 export default function Index(){

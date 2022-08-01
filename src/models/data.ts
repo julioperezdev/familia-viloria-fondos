@@ -6,10 +6,11 @@ export interface Data{
 export interface ParticularData{
     header : HeaderType,
     index : IndexType,
-    howWeAre : HowWeAre
+    // howWeAre : HowWeAre
 }
 
 export interface HeaderType{
+    title: string,
     links : Array<LinksObject>,
 }
 
@@ -19,23 +20,31 @@ export interface LinksObject{
 }
 
 export interface IndexType{
-    descriptionComponent : DescriptionComponent,
-    accountOptions : AccountOptions
+    description : DescriptionComponent,
+    accounts : AccountOptions
 }
 
 export interface DescriptionComponent{
+    title: string,
+    subtitle: string,
     paragraphs : Array<string>
 }
 
 export interface AccountOptions{
-    title : string,
+    description:string,
+    email : string,
     options : Array<Option>
 }
 
 export interface Option{
     country : string,
     imageUrl : string,
-    accounts : Array<string>
+    accounts : Array<AccountType>
+}
+
+export interface AccountType{
+    text: string,
+    number: string
 }
 
 export interface HowWeAre{

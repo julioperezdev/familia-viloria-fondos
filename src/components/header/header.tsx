@@ -1,38 +1,43 @@
 import Image from "next/image"
-import { useContext } from "react"
+import Link from "next/link"
+import { useContext, useState } from "react"
 import { LanguageContext } from "../../context/languageContext"
+import { HeaderType, ParticularData } from "../../models/data"
 import styles from "../../styles/header.module.css"
+import Languages from "../languages/languages"
 
 export default function Header(){
 
-    const {onClickToChageEnglish, onClickToChageSpanish} = useContext(LanguageContext)
+    const {getHeaderData} = useContext(LanguageContext)
+
+    const headerData : HeaderType = getHeaderData();
 
     return(
         <div className={styles.header_base}>
             <div className={styles.header_title}>
-                <p>FAMILIA VILORIA</p>
+                <p>{headerData.title}</p>
             </div>
             <div className={styles.header_image}>
                 <Image 
-                src='/familia.png' 
+                src='/portal.png' 
                 width='1000' 
                 height='300' />
             </div>
             <nav className={styles.header_nav}>
-                <p>INICIO</p>
-                <p className={styles.header_nav_contact}>CONTACTO</p>
-                <div>
-                    <img 
-                    src="/espana.png" 
-                    width='20' 
-                    height='20'
-                    onClick={() => onClickToChageSpanish()}/>
-                    <img 
-                    src="/usa.png" 
-                    width='20' 
-                    height='20'
-                    onClick={() => onClickToChageEnglish()}/>
-                </div>
+                {headerData.links.map(particularLinks => (
+                    particularLinks.url === "/contacto" 
+                    ? <Link href={particularLinks.url}><a className={styles.header_nav_contact}>{particularLinks.text}</a></Link> 
+                    : <Link href={particularLinks.url}><a>{particularLinks.text}</a></Link>
+                ))}
+                {/* <Link 
+                href="/">
+                    <a className={styles.returnHomeStyle}>INICIO</a>
+                </Link>
+                <Link 
+                href="/contacto">
+                    <a className={styles.header_nav_contact}>CONTACTO</a>
+                </Link> */}
+                <Languages/>
             </nav>
         </div>
     )

@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "./header/header";
-import HeaderComponent from "./header/headerComponent"
 
 const Layout = ({children}) =>{
     return(

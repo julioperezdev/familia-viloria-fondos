@@ -1,4 +1,4 @@
-import data from "../respaldo.json"
+import data from "../information.json"
 import {Data, ParticularData} from "../models/data"
 
 export const SPANISH_LANGUAGE : string = "spanish"
