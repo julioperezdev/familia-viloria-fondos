@@ -32,7 +32,13 @@
     text-align: center;
     margin: 50px auto;
 }
-@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 480px) {
+    .description_image{
+        width: 350px;
+        height: 200px;
+    }
+}
 @media only screen and (min-width: 768px) {
     .description_base{
         display: grid;
@@ -46,8 +52,8 @@
     
     .description_image{
         border-radius: 10px;
-        width: 50vw;
-        height: 30vh;
+        width: 370px;
+        height: 300px;
         min-height: 300px;
     }
     
@@ -62,5 +68,15 @@
         font-weight: 500;
     }
 }
-@media only screen and (min-width: 1024px) {}
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1024px) {
+    .description_image{
+        width: 480px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .description_image{
+        width: 580px;
+        height: 350px;
+    }
+}

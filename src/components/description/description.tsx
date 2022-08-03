@@ -20,7 +20,7 @@ const Description = () => {
         <p className={styles.description_title}>{descriptionData.title}</p>
         <p className={styles.description_subtitle}>{descriptionData.subtitle}</p>
         {descriptionData.paragraphs.map(particular =>(
-            <p key={particular.id}>{particular.text}</p>
+            <p className={styles.description_text} key={particular.id}>{particular.text}</p>
         ))}
       </div>
   )

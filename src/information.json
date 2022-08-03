@@ -38,7 +38,7 @@
             },
             "accounts": {
                 "description": "es un titulo para explicar como donar",
-                "email": "hola@familiaviloriafondos.com",
+                "email": "contribuciones@familiaviloriafondos.com",
                 "options": [
                     {
                         "country": "USA",
@@ -133,7 +133,7 @@
             },
             "accounts": {
                 "description": "VERSION EN INGLES PARA CAMBIAR es un titulo para explicar como donar",
-                "email": "hola@familiaviloriafondos.com",
+                "email": "contribuciones@familiaviloriafondos.com",
                 "options": [
                     {
                         "country": "USA",
