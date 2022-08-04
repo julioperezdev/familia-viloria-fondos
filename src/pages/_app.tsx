@@ -4,33 +4,21 @@ import { ENGLISH_LANGUAGE, getEnglishData, getSpanishData, SPANISH_LANGUAGE } fr
 import { useEffect, useState } from 'react';
 import { ParticularData } from '../models/data';
 import { LanguageProvider } from '../context/languageContext';
+import Script from 'next/script';
 function MyApp({ Component, pageProps }: AppProps) {
   
   const [language, setLanguage] = useState<ParticularData>(getSpanishData())
   const [hasChage, setHaschage] = useState<boolean>(false)
 
-
-  const getDataByLocalStorage = () =>{
-    let language = localStorage.getItem("language");
-    if(language != null && language === SPANISH_LANGUAGE){
-      console.log("1")
-      setLanguage(getSpanishData())
-    }
-    if(language != null && language === ENGLISH_LANGUAGE){
-      console.log("2")
-      setLanguage(getEnglishData())
-    }
-    if(language == null || language != null && language !== SPANISH_LANGUAGE && language !== ENGLISH_LANGUAGE ){
-      console.log("3")
-      setLanguage(getSpanishData())
-    }
-    
-  }
-
-  useEffect(() =>{
-    getDataByLocalStorage();
-  },[hasChage])
   return <LanguageProvider>
+    <Script id="google-analytics" strategy="afterInteractive">
+    {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-HE2WBJVHCR');
+    `}
+    </Script>
     <Component {...pageProps} />
     </LanguageProvider>
 }
