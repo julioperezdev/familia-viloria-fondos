@@ -38,6 +38,24 @@ const Accounts = () => {
                 </div>
                 <div>
                     <div className={styles.accounts_list_image_name}>
+                        <img src="/espana.png" alt="bandera del pais donde se dona" />
+                        <p>España</p>
+                    </div>
+                    <div>
+                        <div className={styles.accounts_list_method_information}>
+                            <div className={styles.accounts_list_method_logo}>
+                                <p>Transferencia bancaria</p>
+                                <img src="/bbva.png" alt="Pago Movil logo" />
+                            </div>
+                            <div className={styles.accounts_list_only_detail}>
+                                <p>ES76 0182 5322 2702 0030 8089</p>
+                                <p>Banco BBVA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className={styles.accounts_list_image_name}>
                         <img src="/binancePay.png" alt="bandera del pais donde se dona" />
                         <p>Binance</p>
                     </div>
