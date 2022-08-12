@@ -1,46 +1,220 @@
 {
-    "spanish":{
-        "header":{
-            "links":[{"text":"Inicio", "url":"/"}, {"text":"¿Quienes Somos?", "url":"/quienes-somos"}]
+    "spanish": {
+        "header": {
+            "title": "FAMILIA VILORIA",
+            "links": [
+                {
+                    "text": "INICIO",
+                    "url": "/"
+                },
+                {
+                    "text": "CONTACTO",
+                    "url": "/contacto"
+                }
+            ]
         },
-        "index":{
-            "descriptionComponent":{
-                "paragraphs":[" espaniol kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkf","kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkfghlkglkhjglglkgkglkgkglk"]
+        "index": {
+            "description": {
+                "title": "EN VENEZUELA, A NUESTRO HERMANO TITO VILORIA Y A SU ESPOSA ZAIDA SUÁREZ SE LES VIOLAN LOS DERECHOS HUMANOS.",
+                "subtitle": "¡NECESITAMOS TU AYUDA!",
+                "paragraphs": [
+                    {
+                        "id": 1,
+                        "text": "Sabemos que no suele solicitarse apoyo económico para urgencias de este tipo, sin embargo, nuestra familia no tiene a quien más recurrir. Dos miembros de la nuestra familia fueron detenidos desde el 03/07/22 en Venezuela, presuntamente implicados en el conocido caso de la desaparición del profesor Carlos Lanz. Tito Viloria y su esposa Zaida Suárez, son buenas personas, es el sentimiento familiar por todo lo vivido y compartido con ellos: No tienen antecedentes penales, ambos son profesionales, padres de familia, jubilados, ambos con 61 años de edad y viven como la mayoría de los venezolanos con los recursos básicos esenciales. Nos preocupa y mantiene en vilo esta detención que pone en peligro sus vidas. Por eso nos movilizamos, pues, tenemos que cubrir todo el proceso logístico y legal de lo que implica en Venezuela 1 tener un familiar detenido."
+                    },
+                    {
+                        "id": 2,
+                        "text": "¿POR QUÉ SE VIOLAN SUS DERECHOS HUMANOS?"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Porque desde el momento de sus detenciones (03-07 hasta el 1-08-22), el Ministerio Publico no les permitió contacto familiar, tampoco el acceso del abogado asignado por la familia, les niegan el tiempo, el conocimiento, y los medios indispensables para la preparación de la defensa (incluyendo la entrevista privada y acceso a una copia del expediente). Lo que impide poder actuar según lo establecido en la Constitución Nacional, en las Leyes vigentes y en los Tratados Internacionales suscritos por el país. No solicitamos privilegio alguno, sólo que se cumpla el Estado de Derecho 2 , Los tiempos procesales y el debido proceso están siendo violados desde el principio de esta historia. Nosotros como familia unida, con valentía y humildad, hemos asumido el reto de apoyar a nuestros familiares detenidos, pero nos damos cuenta de que materialmente no podemos continuar solos."
+                    },
+                    {
+                        "id": 4,
+                        "text": "- Nuestro hermano Tito y su esposa fueron expuestos al escarnio público ante los medios de comunicación social por el fiscal general Tarek William Saab (05-07-22) y se les niega el trato de ciudadanos inocentes mientras no se pruebe lo contrario. Se les niega el derecho a ser oídos con las debidas garantías ante un juzgado independiente e imparcial."
+                    },
+                    {
+                        "id": 5,
+                        "text": "- Tito y Zaida son buenas personas, y nos corresponde como su familia que somos, acompañarlos y decir lo que está pasando. Pero nuestros recursos económicos (hermanos/as y sobrinos/as) no dan la base ante semejante situación. Entre otros, necesitamos cubrir los costos de lo que significa todo el proceso de defensa incluyendo hasta los traslados de familiares y testigos desde la provincia a la ciudad de Caracas y viceversa. Todo esto nos recuerda la historia de David contra Goliat, pero en Venezuela."
+                    },
+                    {
+                        "id": 6,
+                        "text": "- En favor de nuestro hermano Tito Viloria y de Zaida Suarez, solicitamos tu colaboración, una contribución solidaria, que nos permita hacerle frente y salir de esta difícil prueba que nos ha tocado vivir. Confiamos en Dios que prevalecerá la justicia y la paz. Anticipamos las gracias por tu donación, por pequeña que sea, marcará la diferencia. Aquí dejamos las cuentas bancarias habilitadas por la familia para la recolecta de tu aporte dependiendo del país en donde te encuentres. Esperamos poder contarte esta historia al final con la frase: ¡Se hizo Justicia!"
+                    }
+                ],
+                "references": [
+                    {
+                        "id":1,
+                        "links":[{
+                            "id":1,
+                            "description":"Las cárceles y población reclusa en Venezuela",
+                            "url":"https://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1575-06202008000100004"
+                        }],
+                        "text":[{
+                            "id":1,
+                            "text":"¨El sistema penitenciario en Venezuela, presenta diversas deficiencias, según informes de instancias internacionales, tales como el retardo procesal, el hacinamiento, el precario estado de los penales, la ausencia de una clasificación de presos, las enfermedades, la carencia de servicios básicos indispensables entre otros, lo cual contribuye a la exposición a condiciones de excesiva violencia para cualquier persona¨."
+                        }]
+                    },
+                    {
+                        "id":2,
+                        "links":[{
+                            "id":1,
+                            "description":"Estatuto de Roma de la Corte Penal Internacional",
+                            "url":"https://www.hhri.org/es/tag/estatuto-de-roma/"
+                        },
+                        {
+                            "id":2,
+                            "description":"Ver PDF aquí",
+                            "url":"http://www.corteidh.or.cr/tablas/r23476.pdf"
+                        }],
+                        "text":[{
+                            "id":1,
+                            "text":"Dichos tratados coinciden con lo que define el artículo 49 de la Constitución Nacional de la República Bolivariana de Venezuela: “La defensa y la asistencia jurídica son derechos inviolables en todo estado y grado de la investigación y del proceso”."
+                        }]
+                    }
+                ]
             },
-            "accountOptions":{
-                "title":"es un titulo para explicar como donar",
-                "options":[
-                    {"country":"USA","imageUrl": "", "accounts":["654987321", "PC-5454-VC", "lov.top"]},
-                    {"country":"EUROPA","imageUrl": "", "accounts":["FF-654987321"]},
-                    {"country":"BINANCE","imageUrl": "", "accounts":["1212121212", "lib.com"]}
+            "accounts": {
+                "description": "¡Aquí tu aporte puede marcar la diferencia!",
+                "email": "contribuciones@familiaviloriafondos.com",
+                "options": [
+                    {
+                        "country": "USA",
+                        "imageUrl": "",
+                        "accounts": [
+                            {
+                                "text": "cuenta 1 USA",
+                                "number": "654987321"
+                            },
+                            {
+                                "text": "cuenta 2 USA",
+                                "number": "PC-5454-VC"
+                            },
+                            {
+                                "text": "cuenta 3 USA",
+                                "number": "lov.top"
+                            }
+                        ]
+                    },
+                    {
+                        "country": "EUROPA",
+                        "imageUrl": "",
+                        "accounts": [
+                            {
+                                "text": "cuenta 1 EUROPA",
+                                "number": "FF-654987321"
+                            }
+                        ]
+                    },
+                    {
+                        "country": "BINANCE",
+                        "imageUrl": "",
+                        "accounts": [
+                            {
+                                "text": "cuenta 1 BINANCE",
+                                "number": "lib.com"
+                            }
+                        ]
+                    }
                 ]
             }
-        },
-        "howWeAre":{
-            "title": "Titulo de quien somos",
-            "paragraphs":[" espaniol kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkf","jdf;lkjsd;lkfjs;alkdjf;lkasdjf;lkjasd;lfkjasdl;jf;"]
         }
     },
-    "english":{
-        "header":{
-            "links":[{"text":"Home", "url":"/"}, {"text":"¿How we are?", "url":"/quien-somos"}]
+    "english": {
+        "header": {
+            "title": "VILORIA FAMILY",
+            "links": [
+                {
+                    "text": "HOME",
+                    "url": "/"
+                },
+                {
+                    "text": "CONTACT",
+                    "url": "/contacto"
+                }
+            ]
         },
-        "index":{
-            "descriptionComponent":{
-                "paragraphs":[" english kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkf","kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkfghlkglkhjglglkgkglkgkglk"]
+        "index": {
+            "description": {
+                "title": "THE HUMAN RIGHTS OF OUR BROTHER TITO VILORIA AND HIS WIFE ZAIDA SUAREZ WERE VIOLATED.",
+                "subtitle": "WE NEED YOUR HELP.",
+                "paragraphs": [
+                    {
+                        "id": 1,
+                        "text": "We know that financial assistance is not normally requested for this type of emergency, however our family has nowhere else to turn.  Our brother Tito Viloria and his wife Zaida Suarez have been detained since July 3rd, 2022, by order of the Public Ministry of Venezuela, allegedly involved in the well-known case of the disappearance and death of Professor Carlos Lanz.  From the first moment we learned of this situation we have mobilized to support the entire logistics process involving a family member in conditions of detention in our country, that is, to guarantee meals, medicines, personal items, a mattress so he doesn’t have to sleep on the floor, among other things."
+                    },
+                    {
+                        "id": 2,
+                        "text": "We have not been able to verify the health conditions or physical integrity of Tito and Zaida.  We have not been able to verify if they have received food and other personal items. From the moment of their arrest until today the authorities have not allowed any family contact, and even worse the authorities have not permitted them their constitutional right of defense.  The legal team we currently have with our limited resources is insufficient to launch an adequate and powerful defense for Tito and Zaida.  We currently are in a legal battle with very few resources against the state and their vast resources."
+                    },
+                    {
+                        "id": 3,
+                        "text": "The lawyers have not been able to see Tito and Zaida, nor have they been able to take an oath or even access a copy of the case file.  They, therefore, are not able to act according to the legal procedure established in the national and international legal regulations for these cases, because as determined in article 49 of the National Constitution of the Bolivarian Republic of Venezuela: “Defense and legal assistance are inviolable rights in all states and degrees of investigation and process”. That is to say we are before a case of blatant violation of human rights, due process, and where there is no guarantee of the State of Law."
+                    },
+                    {
+                        "id": 4,
+                        "text": "Tito and Viloria were exposed to hate in the media and social networks despite that they are professionals with no criminal record, responsible parents and have not lived a live of ostentation and luxury as pointed out by the Attorney General.  They live with resources commensurate with the low wages and family income of the majority of Venezuelans who decided to remain in the country. They come from families with humble, responsible, honest and hard-working parents, from whom they learned to be good people and food citizens."
+                    },
+                    {
+                        "id": 5,
+                        "text": "In any case and despite the accusations, our family seeks to reveal the truth.  We seek to expose the half-truths and fabrications that have been [word] about our family.   We want justice to be done, but in our country and especially in high-profile cases like this one, it unfortunately comes at a very high cost, particularly with fees for legal professionals."
+                    },
+                    {
+                        "id": 6,
+                        "text": "The economic resources of the family, of brothers and sisters and nephews and nieces who have been contributing to the defense of Tito and Zaida are greatly diminished for various reasons.  First, we are not a wealthy family to begin with.  Second, because of the economic reality of the country.  Third, because the costs required to guarantee Tito and Zaida have the basic necessities that the prison doesn’t provide.  And fourth is all of the resources necessary for all the legal proceedings and legal representation required for the defense process. All of this situation and the limitations we face to respond remind us of the story of David vs. Goliath, and only with your help and support, are we going to be able to achieve justice and leave this situation victorious."
+                    },
+                    {
+                        "id": 7,
+                        "text": "No matter the size of your donation, it will make a big difference.  We count on each other."
+                    }
+                ],
+                "references": []
             },
-            "accountOptions":{
-                "title": "its a title to explain who help us",
-                "options":[
-                    {"country":"USA","imageUrl": "", "accounts":["654987321", "PC-5454-VC", "lov.top"]},
-                    {"country":"EUROPE","imageUrl": "", "accounts":["FF-654987321"]},
-                    {"country":"BINANCE","imageUrl": "", "accounts":["1212121212", "lib.com"]}
+            "accounts": {
+                "description": "VERSION EN INGLES PARA CAMBIAR es un titulo para explicar como donar",
+                "email": "contribuciones@familiaviloriafondos.com",
+                "options": [
+                    {
+                        "country": "USA",
+                        "imageUrl": "/usa.png",
+                        "accounts": [
+                            {
+                                "text": "account 1 USA",
+                                "number": "654987321"
+                            },
+                            {
+                                "text": "account 2 USA",
+                                "number": "PC-5454-VC"
+                            },
+                            {
+                                "text": "account 3 USA",
+                                "number": "lov.top"
+                            }
+                        ]
+                    },
+                    {
+                        "country": "EUROPE",
+                        "imageUrl": "/europe.png",
+                        "accounts": [
+                            {
+                                "text": "account 1 EUROPE",
+                                "number": "FF-654987321"
+                            }
+                        ]
+                    },
+                    {
+                        "country": "BINANCE",
+                        "imageUrl": "/binance.png",
+                        "accounts": [
+                            {
+                                "text": "account 1 BINANCE",
+                                "number": "lib.com"
+                            }
+                        ]
+                    }
                 ]
             }
-        },
-        "howWeAre":{
-            "title": "its a title to explain how we are",
-            "paragraphs":["english kjdfa;ljsdlf;kajsdflkajsd;lfja;sldkf","jdf;lkjsd;lkfjs;alkdjf;lkasdjf;lkjasd;lfkjasdl;jf;"]
         }
     }
 }

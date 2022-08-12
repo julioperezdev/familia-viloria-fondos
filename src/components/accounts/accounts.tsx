@@ -76,7 +76,7 @@ const Accounts = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <div className={styles.accounts_list_image_name}>
                         <img src="/venezuela.png" alt="bandera del pais donde se dona" />
                         <p>Venezuela</p>
@@ -94,7 +94,7 @@ const Accounts = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
