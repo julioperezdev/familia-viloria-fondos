@@ -20,7 +20,7 @@ export default function Header(){
             <div className={styles.header_image}>
                 <Image 
                 alt="portal image to describe a family that need help"
-                src='/portal.png' 
+                src='/fotoPortada.png' 
                 width='1000' 
                 height='300' />
             </div>

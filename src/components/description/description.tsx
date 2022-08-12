@@ -22,6 +22,28 @@ const Description = () => {
         {descriptionData.paragraphs.map(particular =>(
             <p className={styles.description_text} key={particular.id}>{particular.text}</p>
         ))}
+        <div className={styles.description_title_references}>
+        <h4>Si quires ver mas, haz click acá</h4>
+        <img src="/mano.png" alt="" />
+        </div>
+        {descriptionData.references.map(particularReference => (
+          <div  className={styles.description_references} key={particularReference.id}>
+            {particularReference.links.map(particularLink =>(
+              <div key={particularLink.id}>
+                <a target="_blank" rel="noopener noreferrer" href={particularLink.url}>{particularLink.description} </a>
+              </div>
+            ))}
+            {
+              particularReference.text.map(particularText => (
+                <div key={particularText.id}>
+                  <p>{particularText.text}</p>
+                </div>
+              ))
+            }
+          </div>
+        ))
+
+        }
       </div>
   )
 }

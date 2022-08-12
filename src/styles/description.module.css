@@ -33,6 +33,30 @@
     margin: 50px auto;
 }
 
+.description_title_references{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 50%;
+    align-items: center;
+}
+
+.description_title_references > img{
+   width: 30px;
+}
+
+.description_references > div{
+    margin-top: 10px;
+}
+
+.description_references > div> a{
+    color : rgb(125, 125, 250);
+    font-size: 13px;
+}
+
+.description_references > div> p{
+    font-size: 12px;
+}
+
 @media only screen and (min-width: 480px) {
     .description_image{
         width: 350px;

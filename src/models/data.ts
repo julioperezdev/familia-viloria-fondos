@@ -27,7 +27,25 @@ export interface IndexType{
 export interface DescriptionComponent{
     title: string,
     subtitle: string,
-    paragraphs : Array<ParagraphsObject>
+    paragraphs : Array<ParagraphsObject>,
+    references : Array<ReferencesObject>,
+}
+
+export interface ReferencesObject{
+    id : number,
+    links : Array<LinksObject>,
+    text : Array<LinksTextObject>
+}
+
+export interface LinksObject{
+    id : number,
+    description : string,
+    url : string
+}
+
+export interface LinksTextObject{
+    id: number,
+    text : string
 }
 
 export interface ParagraphsObject{
