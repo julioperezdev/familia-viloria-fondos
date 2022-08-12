@@ -5,7 +5,7 @@ const Layout = ({children}) =>{
     return(
         <div>
             <Head>
-                <title>Familia Viloria Fondos</title>
+                <title>Familia Viloria Fondos Pide tu aporte</title>
                 <meta name="description" content="Web de Familia Viloria Fondos" />
                 <link rel="icon" href="/icon.png" />
             </Head>
