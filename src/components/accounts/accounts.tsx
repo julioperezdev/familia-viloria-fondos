@@ -76,7 +76,7 @@ const Accounts = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div>
+                <div>
                     <div className={styles.accounts_list_image_name}>
                         <img src="/venezuela.png" alt="bandera del pais donde se dona" />
                         <p>Venezuela</p>
@@ -88,13 +88,13 @@ const Accounts = () => {
                                 <img src="/pagomovil.png" alt="Pago Movil logo" />
                             </div>
                             <div className={styles.accounts_list_only_detail}>
-                                <p>CI 25083327</p>
-                                <p>telefono 1154879865</p>
-                                <p>Banco BBVA</p>
+                                <p>CI 16164452</p>
+                                <p>telefono 04148911483</p>
+                                <p>Banco Provincial</p>
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     )
