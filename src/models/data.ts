@@ -33,11 +33,11 @@ export interface DescriptionComponent{
 
 export interface ReferencesObject{
     id : number,
-    links : Array<LinksObject>,
+    links : Array<ReferencesLinksObject>,
     text : Array<LinksTextObject>
 }
 
-export interface LinksObject{
+export interface ReferencesLinksObject{
     id : number,
     description : string,
     url : string
