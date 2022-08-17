@@ -95,6 +95,23 @@ const Accounts = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div className={styles.accounts_list_image_name}>
+                        <img src="/argentina.png" alt="bandera del pais donde se dona" />
+                        <p>Argentina</p>
+                    </div>
+                    <div>
+                        <div className={styles.accounts_list_method_information}>
+                            <div className={styles.accounts_list_method_logo}>
+                                <p>Transferencia</p>
+                                <img src="/peso.png" alt="banco patagonia" />
+                            </div>
+                            <div className={styles.accounts_list_only_detail}>
+                                <p>CBU: 0340310308310006737003</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
