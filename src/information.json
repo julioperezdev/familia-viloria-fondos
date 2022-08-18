@@ -17,6 +17,7 @@
             "description": {
                 "title": "EN VENEZUELA, A NUESTRO HERMANO TITO VILORIA Y A SU ESPOSA ZAIDA SUÁREZ SE LES VIOLAN LOS DERECHOS HUMANOS.",
                 "subtitle": "¡NECESITAMOS TU AYUDA!",
+                "footnotes": "Si quires ver mas, haz click acá :",
                 "paragraphs": [
                     {
                         "id": 1,
@@ -137,42 +138,69 @@
         },
         "index": {
             "description": {
-                "title": "THE HUMAN RIGHTS OF OUR BROTHER TITO VILORIA AND HIS WIFE ZAIDA SUAREZ WERE VIOLATED.",
+                "title": "IN VENEZUELA, THE HUMAN RIGHTS OF OUR BROTHER TITO VILORIA AND HIS WIFE ZAIDA SUÁREZ WERE VIOLATED.",
                 "subtitle": "WE NEED YOUR HELP.",
+                "footnotes": "Footnotes:",
                 "paragraphs": [
                     {
                         "id": 1,
-                        "text": "We know that financial assistance is not normally requested for this type of emergency, however our family has nowhere else to turn.  Our brother Tito Viloria and his wife Zaida Suarez have been detained since July 3rd, 2022, by order of the Public Ministry of Venezuela, allegedly involved in the well-known case of the disappearance and death of Professor Carlos Lanz.  From the first moment we learned of this situation we have mobilized to support the entire logistics process involving a family member in conditions of detention in our country, that is, to guarantee meals, medicines, personal items, a mattress so he doesn’t have to sleep on the floor, among other things."
+                        "text": "We know that financial assistance is not normally requested for this type of emergency, however our family has nowhere else to turn.  Two members of our family have been detained in Venezuela since July 3 rd , 2022. They were accused of being involved in the well-known case of the disappearance of Professor Carlos Lanz. Tito Viloria and his wife Zaida Suarez are good people, everyone who knows them and have spent time with them knows this. Neither of them has a prior criminal record, they are both professionals, parents, family members, both are 61 years old and retired, and like most Venezuelans live modestly on resources that just cover their basic essentials. We are concerned and kept in suspense about this detention that potentially puts their lives in danger. That is why we have mobilized. We are now responsible for covering the entire logistical and legal process. This is what it means to have a family member detained in Venezuela (footnote 1)."
                     },
                     {
                         "id": 2,
-                        "text": "We have not been able to verify the health conditions or physical integrity of Tito and Zaida.  We have not been able to verify if they have received food and other personal items. From the moment of their arrest until today the authorities have not allowed any family contact, and even worse the authorities have not permitted them their constitutional right of defense.  The legal team we currently have with our limited resources is insufficient to launch an adequate and powerful defense for Tito and Zaida.  We currently are in a legal battle with very few resources against the state and their vast resources."
+                        "text": "How Were Their Human Rights Violated?"
                     },
                     {
                         "id": 3,
-                        "text": "The lawyers have not been able to see Tito and Zaida, nor have they been able to take an oath or even access a copy of the case file.  They, therefore, are not able to act according to the legal procedure established in the national and international legal regulations for these cases, because as determined in article 49 of the National Constitution of the Bolivarian Republic of Venezuela: “Defense and legal assistance are inviolable rights in all states and degrees of investigation and process”. That is to say we are before a case of blatant violation of human rights, due process, and where there is no guarantee of the State of Law."
+                        "text": "From the moment of their arrests on June 3 rd to August 1 st the Public Ministry did not allow them any family contact nor access to the lawyer chosen by their family. They were also denied the time, the knowledge and the means that are necessary for the preparation of their defense. These are violations of the Venezuelan Constitution and in various international treaties signed by Venezuela. Procedural times and due process have been violated from the beginning of this case. We do not request any special privileges, only that the government comply with the rule of law (footnote 2). As a united family, with courage and humility, we have taken on the challenge of supporting our detained relatives, but we realize that we cannot continue alone."
                     },
                     {
                         "id": 4,
-                        "text": "Tito and Viloria were exposed to hate in the media and social networks despite that they are professionals with no criminal record, responsible parents and have not lived a live of ostentation and luxury as pointed out by the Attorney General.  They live with resources commensurate with the low wages and family income of the majority of Venezuelans who decided to remain in the country. They come from families with humble, responsible, honest and hard-working parents, from whom they learned to be good people and food citizens."
+                        "text": "- Our brother Tito and his wife were exposed to public ridicule in the national and international media by Attorney General Tarek William Saab on July 5 th , 2022. This is a violation of the treatment of citizens as innocent until proven guilty. They have been denied the right to be heard with due process before an independent and impartial court."
                     },
                     {
                         "id": 5,
-                        "text": "In any case and despite the accusations, our family seeks to reveal the truth.  We seek to expose the half-truths and fabrications that have been [word] about our family.   We want justice to be done, but in our country and especially in high-profile cases like this one, it unfortunately comes at a very high cost, particularly with fees for legal professionals."
+                        "text": "- Tito and Zaida are good people, and it is up to us as their family to stand with them and speak loudly about what is happening to them. But unfortunately, our economic resources are insufficient to fulfill this role. Among other costs, we need to cover the costs of the entire defense process, including the transportation of relatives and witnesses from the provinces to the city of Caracas and vice versa. All of this reminds us of the story of David vs. Goliath, but in Venezuela."
                     },
                     {
                         "id": 6,
-                        "text": "The economic resources of the family, of brothers and sisters and nephews and nieces who have been contributing to the defense of Tito and Zaida are greatly diminished for various reasons.  First, we are not a wealthy family to begin with.  Second, because of the economic reality of the country.  Third, because the costs required to guarantee Tito and Zaida have the basic necessities that the prison doesn’t provide.  And fourth is all of the resources necessary for all the legal proceedings and legal representation required for the defense process. All of this situation and the limitations we face to respond remind us of the story of David vs. Goliath, and only with your help and support, are we going to be able to achieve justice and leave this situation victorious."
-                    },
-                    {
-                        "id": 7,
-                        "text": "No matter the size of your donation, it will make a big difference.  We count on each other."
+                        "text": "- To defend our brother Tito Viloria and Zaida Suarez we request your collaboration, a solidarity contribution, that allows us to confront the obstacles that lay ahead and allows us to get out of this difficult situation that we have been forced to endure. We trust in God that justice and peace will prevail. We thank you in advance for your donation, no matter how small, it will make a difference. Below you can find our family bank accounts where you can contribute, depending on the country where you are. We hope at the end of this story that we will be able to tell you that: Justice was served!"
                     }
                 ],
-                "references": []
+                "references": [
+                    {
+                        "id":1,
+                        "links":[{
+                            "id":1,
+                            "description":"Las cárceles y población reclusa en Venezuela",
+                            "url":"https://scielo.isciii.es/scielo.php?script=sci_arttext&amp;pid=S1575-06202008000100004"
+                        }],
+                        "text":[{
+                            "id":1,
+                            "text":"“According to international reports the penitentiary system in Venezuela has several deficiencies, such as procedural delays, overcrowding, the precarious state of the prisons, the absence of classification of prisoners, illnesses, the lack of essential basic services among others, which contributes to exposure to conditions of excessive violence for any person.”"
+                        }]
+                    },
+                    {
+                        "id":2,
+                        "links":[{
+                            "id":1,
+                            "description":"Estatuto de Roma de la Corte Penal Internacional",
+                            "url":"https://www.hhri.org/es/tag/estatuto-de-roma/"
+                        },
+                        {
+                            "id":2,
+                            "description":"See PDF here",
+                            "url":"http://www.corteidh.or.cr/tablas/r23476.pdf"
+                        }],
+                        "text":[{
+                            "id":1,
+                            "text":"These treaties coincide with what is defined in article 49 of the National Constitution of the Bolivarian Republic of Venezuela: “Defense and legal assistance are inviolable rights in all states and degrees of investigation and process."
+                        }]
+                    }
+                ]
             },
             "accounts": {
-                "description": "VERSION EN INGLES PARA CAMBIAR es un titulo para explicar como donar",
+                "description": "Here your contribution can make a difference!",
                 "email": "contribuciones@familiaviloriafondos.com",
                 "options": [
                     {

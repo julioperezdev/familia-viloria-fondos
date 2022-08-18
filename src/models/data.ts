@@ -27,6 +27,7 @@ export interface IndexType{
 export interface DescriptionComponent{
     title: string,
     subtitle: string,
+    footnotes : string,
     paragraphs : Array<ParagraphsObject>,
     references : Array<ReferencesObject>,
 }

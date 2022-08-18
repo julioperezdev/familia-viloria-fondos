@@ -23,7 +23,7 @@ const Description = () => {
             <p className={styles.description_text} key={particular.id}>{particular.text}</p>
         ))}
         <div className={styles.description_title_references}>
-        <h4>Si quires ver mas, haz click acá</h4>
+        <h4>{descriptionData.footnotes}</h4>
         <img src="/mano.png" alt="" />
         </div>
         {descriptionData.references.map(particularReference => (
