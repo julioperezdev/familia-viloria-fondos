@@ -44,6 +44,10 @@
    width: 30px;
 }
 
+.description_particular_link_description{
+    color: rgb(67, 58, 249);
+}
+
 .description_references > div{
     margin-top: 10px;
 }

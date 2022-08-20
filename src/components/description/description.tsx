@@ -30,7 +30,8 @@ const Description = () => {
           <div  className={styles.description_references} key={particularReference.id}>
             {particularReference.links.map(particularLink =>(
               <div key={particularLink.id}>
-                <a target="_blank" rel="noopener noreferrer" href={particularLink.url}>{particularLink.description} </a>
+                {/* <a target="_blank" rel="noopener noreferrer" href={particularLink.url}>{particularLink.description} </a> */}
+                <p className={styles.description_particular_link_description}>{particularLink.description} </p>
               </div>
             ))}
             {

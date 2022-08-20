@@ -20,13 +20,13 @@ const Accounts = () => {
                         <p>USA</p>
                     </div>
                     <div>
-                        <div className={styles.accounts_list_method_information}>
+                        {/* <div className={styles.accounts_list_method_information}>
                             <div className={styles.accounts_list_method_logo}>
                                 <p>Zelle</p>
                                 <img src="/zelle.png" alt="Zelle logo" />
                             </div>
                             <p className={styles.accounts_list_only_detail}>maritagg2v@gmail.com</p>
-                        </div>
+                        </div> */}
                         <div className={styles.accounts_list_method_information}>
                             <div className={styles.accounts_list_method_logo}>
                                 <p>Venmo</p>
@@ -104,10 +104,10 @@ const Accounts = () => {
                         <div className={styles.accounts_list_method_information}>
                             <div className={styles.accounts_list_method_logo}>
                                 <p>Transferencia</p>
-                                <img src="/peso.png" alt="banco patagonia" />
+                                <img src="/hsbc.png" alt="banco HSBC" />
                             </div>
                             <div className={styles.accounts_list_only_detail}>
-                                <p>CBU: 0340310308310006737003</p>
+                                <p>CBU: 1500625900062561603032</p>
                             </div>
                         </div>
                     </div>

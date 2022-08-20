@@ -17,7 +17,7 @@
             "description": {
                 "title": "EN VENEZUELA, A NUESTRO HERMANO TITO VILORIA Y A SU ESPOSA ZAIDA SUÁREZ SE LES VIOLAN LOS DERECHOS HUMANOS.",
                 "subtitle": "¡NECESITAMOS TU AYUDA!",
-                "footnotes": "Si quires ver mas, haz click acá :",
+                "footnotes": "Si quires ver mas, dejo una referencia :",
                 "paragraphs": [
                     {
                         "id": 1,
@@ -63,11 +63,6 @@
                             "id":1,
                             "description":"Estatuto de Roma de la Corte Penal Internacional",
                             "url":"https://www.hhri.org/es/tag/estatuto-de-roma/"
-                        },
-                        {
-                            "id":2,
-                            "description":"Ver PDF aquí",
-                            "url":"http://www.corteidh.or.cr/tablas/r23476.pdf"
                         }],
                         "text":[{
                             "id":1,
@@ -186,11 +181,6 @@
                             "id":1,
                             "description":"Estatuto de Roma de la Corte Penal Internacional",
                             "url":"https://www.hhri.org/es/tag/estatuto-de-roma/"
-                        },
-                        {
-                            "id":2,
-                            "description":"See PDF here",
-                            "url":"http://www.corteidh.or.cr/tablas/r23476.pdf"
                         }],
                         "text":[{
                             "id":1,
