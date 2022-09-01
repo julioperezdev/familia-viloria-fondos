@@ -20,13 +20,16 @@ const Accounts = () => {
                         <p>USA</p>
                     </div>
                     <div>
-                        {/* <div className={styles.accounts_list_method_information}>
+                        <div className={styles.accounts_list_method_information}>
                             <div className={styles.accounts_list_method_logo}>
                                 <p>Zelle</p>
                                 <img src="/zelle.png" alt="Zelle logo" />
                             </div>
-                            <p className={styles.accounts_list_only_detail}>maritagg2v@gmail.com</p>
-                        </div> */}
+                            <div className={styles.accounts_list_only_detail}>
+                                <p>maritagg2v18@gmail.com</p>
+                                <p>Mara G Garcia</p>
+                            </div>
+                        </div>
                         <div className={styles.accounts_list_method_information}>
                             <div className={styles.accounts_list_method_logo}>
                                 <p>Venmo</p>
