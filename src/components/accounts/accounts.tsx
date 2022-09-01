@@ -107,10 +107,10 @@ const Accounts = () => {
                         <div className={styles.accounts_list_method_information}>
                             <div className={styles.accounts_list_method_logo}>
                                 <p>Transferencia</p>
-                                <img src="/hsbc.png" alt="banco HSBC" />
+                                <img src="/peso.png" alt="banco HSBC" />
                             </div>
                             <div className={styles.accounts_list_only_detail}>
-                                <p>CBU: 1500625900062561603032</p>
+                                <p>CBU: 0340310308310006737003</p>
                             </div>
                         </div>
                     </div>
